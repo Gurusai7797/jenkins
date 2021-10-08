@@ -1,0 +1,7 @@
+---
+- 
+ name: play1
+ hosts: test1
+ tasks: 
+    -  shell: echo hello world > /tmp/ansible-t-f
+...
